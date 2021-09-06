@@ -1,0 +1,48 @@
+.content {
+    width: 50%;
+    text-align: center;
+}
+
+.content th{ 
+    border: 1px solid black;
+}
+
+.content td{
+    border: 1px solid black;
+}
+
+.edit{
+    margin-right: 35%;
+    margin-top: 12.5%;
+    float: right;
+}
+
+.about{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+.table-sortable th {
+    cursor: pointer;
+  }
+  
+  .table-sortable .th-sort-asc::after {
+    content: "\25b4";
+  }
+  
+  .table-sortable .th-sort-desc::after {
+    content: "\25be";
+  }
+  
+  .table-sortable .th-sort-asc::after,
+  .table-sortable .th-sort-desc::after {
+    margin-left: 5px;
+  }
+  
+  .table-sortable .th-sort-asc,
+  .table-sortable .th-sort-desc {
+    background: rgba(0, 0, 0, 0.1);
+  }
